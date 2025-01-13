@@ -1,9 +1,50 @@
-site_name: Documentação
-
-nav:
-  - Instruções mkdocs: "index.md"
-  - Atas de Reunião:
-    - Ata 1: "atas-reuniao/ata-reuniao-1.md"
+site_name: FastTravel
+docs_dir: gitpages
+nav: 
+ - Home: 'index.md'
+ - Conceitos: 'concepts.md'
+ - Site: 'site.md'
+ - Visão de produto e projeto: 
+    - Visão de produto: 'product.md'
+    - Visão de projeto: 'project.md'
+    - Padrões de desenvolvimento: 'patterns.md'
+ - Backlog: 'backlog.md'
+ - Artes e referências: 'references.md'
+ - Sprints: 'sprints.md'
 
 theme:
   name: material
+  language: pt
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
