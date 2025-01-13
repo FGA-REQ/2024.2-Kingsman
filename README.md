@@ -8,6 +8,7 @@ Este projeto propõe o desenvolvimento de uma plataforma especializada na organi
 | Nome                            | GitHub         | Foto                                                       |
 | ------------------------------- | --------------- | ---------------------------------------------------------- |
 | Amanda Gonçalves S. Abreu       | Amandaaaaabreu | [<img src="https://avatars.githubusercontent.com/u/103958998?v=4" width=50>](https://github.com/Amandaaaaabreu) |
+| Danielle Rodrigues Silva        | Danizelle      | [<img src="https://avatars.githubusercontent.com/u/103958998?v=4" width=50>](https://github.com/Danizelle)      |
 
 ## Especificações Técnicas do Repositório
 
