@@ -1,6 +1,13 @@
-# template-repository
+# Grupo Kingsman - 2024.2
+Repositório de projeto da disciplina de Requisitos de Software coordenado pela Professora Cristiane Ramos.
 
-Template de Repositório para a matéria de Requisitos de Software coordenado pela Professora Cristiane Ramos.
+## Sobre o projeto
+Este projeto propõe o desenvolvimento de uma plataforma especializada na organização e planejamento de roteiros de viagem. O objetivo é fornecer uma experiência personalizada, onde os usuários possam explorar destinos com base em preferências individuais.
+
+## Integrantes 
+| Nome                            | GitHub         | Foto                                                       |
+| ------------------------------- | --------------- | ---------------------------------------------------------- |
+| Amanda Gonçalves S. Abreu       | Amandaaaaabreu | [<img src="https://avatars.githubusercontent.com/u/103958998?v=4" width=50>](https://github.com/Amandaaaaabreu) |
 
 ## Especificações Técnicas do Repositório
 
