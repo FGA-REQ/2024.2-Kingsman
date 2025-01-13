@@ -86,3 +86,9 @@ Website em produção e documentado.
 | Testes e Validação | Website funcional  | 	Website validado  |
 | Entrega e Implantação | Website validado | Website em produção  |
 
+## Histórico de versão
+
+| Versão | Data       | Modificação                             | Autor                         | Revisores                         |
+| ------ | ---------- | --------------------------------------- | ----------------------------- | ----------------------------- |
+|    1.0   |   13/01/2024   |   Criação do processo de desenvolvimento |  [Amanda](https://github.com/Amandaaaaabreu)| |
+
