@@ -10,6 +10,7 @@ Este projeto propõe o desenvolvimento de uma plataforma especializada na organi
 | Amanda Gonçalves S. Abreu         | Amandaaaaabreu | [<img src="https://avatars.githubusercontent.com/u/103958998?v=4" width=50>](https://github.com/Amandaaaaabreu) |
 | Danielle Rodrigues Silva          | Danizelle      | [<img src="https://avatars.githubusercontent.com/u/101230741?v=4" width=50>](https://github.com/Danizelle)      |
 | Harleny Angéllica Araújo de Sousa | Angelicahaas   | [<img src="https://avatars.githubusercontent.com/u/101184511?v=4" width=50>](https://github.com/Angelicahaas)   |
+| Felipe de Sousa Coelho            | Fsousac        | [<img src="https://avatars.githubusercontent.com/u/95441810?v=4" width=50>](https://github.com/fsousac)         |
 
 ## Especificações Técnicas do Repositório
 
