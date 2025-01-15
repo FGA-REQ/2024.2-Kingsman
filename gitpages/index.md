@@ -12,9 +12,9 @@ Este projeto propõe o desenvolvimento de uma plataforma especializada na organi
 
 ## Histórico de versão
 
-| Versão | Data       | Modificação                             | Autor                         | Revisores                         |
-| ------ | ---------- | --------------------------------------- | ----------------------------- | ----------------------------- |
-|    1.0   |   15/01/2024   |   Criação do processo de desenvolvimento |  [Amanda](https://github.com/Amandaaaaabreu)| |
+| Versão | Data       | Modificação                             | Autor                         |            
+| ------ | ---------- | --------------------------------------- | ----------------------------- |
+|    1.0   |   15/01/2024   |   Criação da Home|  Miguel Arthur| 
 
 
 
