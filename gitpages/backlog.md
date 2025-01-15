@@ -6,16 +6,16 @@ Este artefato tem o propósito de reunir informações e conteúdo do backlog de
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|0.1|Adicionando backlog|Miguel Arthur|
+|15/01/2025|1.0|Adicionando backlog|Miguel Arthur|
 
-<p style="text-indent: 50px;text-align: justify;"> Todo o conteúdo mencionado abaixo pode ser acessado <a href="" target="_blank">aqui</a>. </p>
+Todo o conteúdo mencionado abaixo pode ser acessado <a href="" target="_blank">aqui</a>. 
 
 ## Quadro de Requisitos
 Este quadro reúne todos os requisitos levantados durante as reuniões do grupo, rotulando-os como Funcionais ou Não Funcionais e qual é a sua prioridade(baixa, média ou alta). 
 
 Além disso, ele contém informações sobre para qual dos quatro Lançamentos do projeto cada requisito se refere. Outro aspecto importante é o _id_ do requisito, que vem imediatamente antes de seu título, dentro de colchetes. 
 
-<p style="text-indent: 50px;text-align: justify;"> O Quadro de Requisitos pode ser visualizado a seguir: </p>
+O Quadro de Requisitos pode ser visualizado a seguir: 
 
 <iframe src="" frameBorder="0" width="500" height="500"></iframe>
 
