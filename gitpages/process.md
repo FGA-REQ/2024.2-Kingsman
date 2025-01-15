@@ -76,3 +76,9 @@ Versão ajustada e validada.
 Website validado.
 #### Saída: 
 Website em produção e documentado.
+
+## Histórico de versão
+
+|Data|Versão|Descrição|Autores|
+|--|--|--|--|
+|15/01/2025|1.0|Adicionando processo de desenvolvimento|Amanda Abreu|
