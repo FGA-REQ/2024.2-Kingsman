@@ -1,12 +1,5 @@
 # VISÃO GERAL DO PRODUTO
 
-## Histórico de versão
-
-|Data|Versão|Descrição|Autores|
-|--|--|--|--|
-|15/01/2025|0.1|Adicionando Visão do Produto|Miguel Arthur|
-
-
 ## Problema
 - Turistas enfrentam dificuldades em criar roteiros personalizados que atendam às suas preferências e orçamento, necessitando de uma solução prática e integrada.
 
@@ -27,4 +20,10 @@ O produto é único ao criar roteiros personalizados baseados nas preferências 
 ## Objetivos do Produto
 
 Desenvolver uma plataforma que crie roteiros personalizados, ajustando destinos e custos conforme preferências, oferecendo uma experiência de viagem otimizada.
+
+## Histórico de versão
+
+|Data|Versão|Descrição|Autores|
+|--|--|--|--|
+|15/01/2025|1.0|Adicionando Visão do Produto|Miguel Arthur|
 

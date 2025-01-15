@@ -6,6 +6,6 @@ Essa seção é dedicada a conceitos e definições importantes relacionados ao 
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/05/2025|0.1|Adicionando conceitos|Miguel Arthur|
+|15/01/2025|1.0|Adicionando conceitos|Miguel Arthur|
 
 

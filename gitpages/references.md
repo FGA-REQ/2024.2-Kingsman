@@ -4,4 +4,4 @@
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|0.1|Adicionando referências|Miguel Arthur|
+|15/01/2025|1.0|Adicionando referências|Miguel Arthur|

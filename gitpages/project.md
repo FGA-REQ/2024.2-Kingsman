@@ -1,11 +1,5 @@
 # VISÃO DO PROJETO
 
-## Histórico de versão
-
-|Data|Versão|Descrição|Autores|
-|--|--|--|--|
-|15/01/2025|0.1|Adicionando visão de projeto|Miguel Arthur|
-
 
 ## Objetivo Principal
 - Alcançar viajantes frequentes, oferecendo uma plataforma que evita a monotonia nas viagens, proporcionando experiências únicas e personalizadas.
@@ -27,3 +21,9 @@ O curto prazo para entrega do projeto. Desafios na automação da criação de r
 ### Stakeholders
 
 O público-alvo são viajantes que costumam planejar todos os detalhes da viagem, mas precisam de ajuda para descobrir o que fazer, onde ir e onde comer no destino.
+
+## Histórico de versão
+
+|Data|Versão|Descrição|Autores|
+|--|--|--|--|
+|15/01/2025|1.0|Adicionando visão de projeto|Miguel Arthur|

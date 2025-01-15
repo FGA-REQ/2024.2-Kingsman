@@ -1,12 +1,5 @@
 # Padrões de Desenvolvimento
 
-## Histórico de versão
-
-|Data|Versão|Descrição|Autores|
-|--|--|--|--|
-|15/01/2025|1.0|Adicionando padrões de commit e templates|Miguel Arthur|
-|15/01/2025|1.1|Adicionando padrões de commit e templates|Amanda Abreu|
-
 Para melhor organização do projeto, uma série de padrões foram adotadas, como padrão de commit, template de issues, template de pull requests, padrão de ATAS e padrões de código. 
 
 ## Padrões de Código
@@ -95,3 +88,10 @@ Para padronizar as issues do projeto, foi criado o seguinte template:
 ## Template de ata de reunião
 
 O template de ata de reunião pode ser encontrado <a href="" target="_blank">aqui</a>.
+
+## Histórico de versão
+
+|Data|Versão|Descrição|Autores|
+|--|--|--|--|
+|15/01/2025|1.0|Adicionando padrões de commit e templates|Miguel Arthur|
+|15/01/2025|1.1|Adicionando padrões de commit e templates|Amanda Abreu|
