@@ -77,8 +77,14 @@ Website validado.
 #### Saída: 
 Website em produção e documentado.
 
+
+### 7. Diagrama BPMN
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVLtWQQ58=/?moveToViewport=-5020,-1609,6164,3217&embedId=845026760974" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
 ## Histórico de versão
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
 |15/01/2025|1.0|Adicionando processo de desenvolvimento|Amanda Abreu|
+|15/01/2025|1.1| Adicionando diagrama BPMN | Harleny Angéllica |
