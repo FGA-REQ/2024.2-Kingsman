@@ -8,6 +8,7 @@ nav:
     - Visão de produto: 'product.md'
     - Visão de projeto: 'project.md'
     - Padrões de desenvolvimento: 'patterns.md'
+    - Processo de desenvolvimento: process.md
  - Backlog: 'backlog.md'
  - Artes e referências: 'references.md'
  - Sprints: 'sprints.md'
