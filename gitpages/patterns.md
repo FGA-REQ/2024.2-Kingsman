@@ -4,37 +4,38 @@
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|0.1|Adicionando padrões de commit e templates|Miguel Arthur|
+|15/01/2025|1.0|Adicionando padrões de commit e templates|Miguel Arthur|
+|15/01/2025|1.1|Adicionando padrões de commit e templates|Amanda Abreu|
 
-<p style="text-indent: 50px;text-align: justify;"> Para melhor organização do projeto, uma série de padrões foram adotadas, como padrão de commit, template de issues, template de pull requests, padrão de ATAS e padrões de código. </p>
+Para melhor organização do projeto, uma série de padrões foram adotadas, como padrão de commit, template de issues, template de pull requests, padrão de ATAS e padrões de código. 
 
 ## Padrões de Código
-<p style="text-indent: 50px;text-align: justify;"> Para um desenvolvimento coerente dos códigos do software e para uma melhor legibilidade e compreensão de todos os membros do grupo, este artefato foi desenvolvido para resolver todas essas questões, construindo Padrões de Código como solução. </p>
+Para um desenvolvimento coerente dos códigos do software e para uma melhor legibilidade e compreensão de todos os membros do grupo, este artefato foi desenvolvido para resolver todas essas questões, construindo Padrões de Código como solução. 
 
-<p style="text-indent: 50px;text-align: justify;"> Para todas as contribuições externas neste projeto, também é necessário seguir estas diretrizes. </p>
+Para todas as contribuições externas neste projeto, também é necessário seguir estas diretrizes. 
 
-<p style="text-indent: 50px;text-align: justify;"> Os padrões apresentados abaixo são fortemente inspirados pelo <a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">CamelCase</a>, um estilo de código muito popular, marcado pela junção de palavras, tornando sua divisão por letras maiúsculas. </p>
+Os padrões apresentados abaixo são fortemente inspirados pelo <a href="https://en.wikipedia.org/wiki/Camel_case" target="_blank">CamelCase</a>, um estilo de código muito popular, marcado pela junção de palavras, tornando sua divisão por letras maiúsculas. 
 
 ### Classes e Métodos
-<p style="text-indent: 50px;text-align: justify;"> O nome das classes seguirá o clássico CamelCase, onde a primeira letra de cada palavra, incluindo a primeira de todas, será maiúscula. Os métodos, por outro lado, terão a primeira letra em minúsculo, enquanto as próximas palavras terão a primeira letra em maiúsculo. </p>
+O nome das classes seguirá o clássico CamelCase, onde a primeira letra de cada palavra, incluindo a primeira de todas, será maiúscula. Os métodos, por outro lado, terão a primeira letra em minúsculo, enquanto as próximas palavras terão a primeira letra em maiúsculo.
 
 ### Atributos
-<p style="text-indent: 50px;text-align: justify;"> Os atributos seguirão as mesmas diretrizes dos métodos. </p>
+Os atributos seguirão as mesmas diretrizes dos métodos. 
 
 ### Cenas e Objetos do Jogo
-<p style="text-indent: 50px;text-align: justify;"> Ambos seguirão as mesmas diretrizes das classes, tendo a primeira letra de cada palavra em maiúscula. </p>
+Ambos seguirão as mesmas diretrizes das classes, tendo a primeira letra de cada palavra em maiúscula. 
 
 ## Padrões de Commit
-<p style="text-indent: 50px;text-align: justify;"> Para padronizar os commits do projeto, este artefato foi criado tendo o <a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank">Conventional Commits</a> como inspiração. </p>
+Para padronizar os commits do projeto, este artefato foi criado tendo o <a href="https://www.conventionalcommits.org/en/v1.0.0/" target="_blank">Conventional Commits</a> como inspiração. 
 
-<p style="text-indent: 50px;text-align: justify;"> O padrão básico consiste em:"tipo", "issue", "mensagem" e "contribuidores" </p>
+O padrão básico consiste em:"tipo", "issue", "mensagem" e "contribuidores" 
 
 - **Tipo**: que é o tipo do commit, como **docs** para documentação, **fix** para correção de conteúdo, ou mesmo **feat** para commits de novas funcionalidades;
 - **Issue**: este commit corrige qual das issues abertas no momento?
 - **Mensagem**: a mensagem precisa ser curta, mas eficaz, transmitindo uma pequena ideia do conteúdo do commit;
 - **Contribuidores**: se houver um coautor no commit, você deve incluí-lo no final;
 
-<p style="text-indent: 50px;text-align: justify;"> O estilo deve se parecer com algo assim: </p>
+O estilo deve se parecer com algo assim: 
 
 ```bash
 <Tipo> #(Issue): <Mensagem> Co-autoria: <Contribuidor> <E-mail do Contribuidor>
@@ -42,7 +43,7 @@
 
 ## Template de Issue
 
-<p style="text-indent: 50px;text-align: justify;"> Para padronizar as issues do projeto, foi criado o seguinte template: </p>
+Para padronizar as issues do projeto, foi criado o seguinte template: 
 
     ## Descrição da Tarefa
 
@@ -67,8 +68,7 @@
 
 ## Template de PR
 
-<p style="text-indent: 50px;text-align: justify;"> Para padronizar as PRs do projeto, foi criado o seguinte template: </p>
-
+<Para padronizar as PRs do projeto, foi criado o seguinte template: 
     ## Descrição
 
     Inclua um resumo da mudança e qual problema está sendo corrigido. Inclua também motivação e contexto relevantes. Liste quaisquer dependências necessárias para essa mudança.
@@ -94,4 +94,4 @@
 
 ## Template de ata de reunião
 
-<p style="text-indent: 50px;text-align: justify;"> O template de ata de reunião pode ser encontrado <a href="" target="_blank">aqui</a>.</p>
+O template de ata de reunião pode ser encontrado <a href="" target="_blank">aqui</a>.
