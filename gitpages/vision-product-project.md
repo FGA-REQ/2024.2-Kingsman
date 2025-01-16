@@ -39,7 +39,9 @@ O objetivo deste projeto é desenvolver uma plataforma especializada na criaçã
 
 ### 1.4 Tecnologias a Serem Utilizadas
 
-_(Seção a ser detalhada posteriormente.)_
+**Frontend**: JavaScript com ReactJS
+**Backend**: JavaScript com NodeJS
+**Banco de dados**: MongoDB
 
 ## 2. Visão Geral do Projeto
 
@@ -97,3 +99,4 @@ Essas ações garantirão que o projeto permaneça dentro do escopo e alcance os
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | :-------------------------------------------: |
 |  1.0   | 13/01/2024 | Criação do processo de desenvolvimento                                                     |  [Amanda](https://github.com/Amandaaaaabreu)  |
 |  2.0   | 14/01/2024 | Separação das partes dos requisitos em diferentes documentos e transformação para MarkDown | [Felipe de Sousa](https://github.com/fsousac) |
+|  2.1   | 15/01/2024 | Inserção das tecnologias utilizadas                                                        | [Felipe de Sousa](https://github.com/fsousac) |
