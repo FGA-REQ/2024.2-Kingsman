@@ -1,6 +1,10 @@
 # Product Backlog - SAFe
 
-O Scaled Agile Framework (SAFe) é uma metodologia que permite a aplicação de práticas ágeis em larga escala dentro de organizações. Desenvolvido em 2011 por Dean Leffingwell e Drew Jemilo, o SAFe combina princípios de desenvolvimento ágil de software, desenvolvimento enxuto de produtos e pensamento sistêmico para auxiliar empresas a entregar soluções de forma mais eficiente e alinhada aos objetivos estratégicos.
+O Scaled Agile Framework (SAFe) é uma metodologia que permite a aplicação de práticas ágeis em larga escala dentro de organizações. Desenvolvido em 2011 por Dean Leffingwell e Drew Jemilo, o SAFe combina princípios de desenvolvimento ágil de software, desenvolvimento enxuto de produtos e pensamento sistêmico. Ele auxilia empresas a entregarem soluções de forma eficiente e alinhada aos objetivos estratégicos, promovendo colaboração entre equipes e melhoria contínua.
+
+No contexto deste projeto, o backlog foi estruturado considerando os objetivos estratégicos, as funcionalidades desejadas e os requisitos não funcionais, garantindo um produto escalável, seguro e eficiente para os usuários finais.
+
+A seguir, apresentamos o backlog detalhado da aplicação Fast Travel.
 
 
 ## Epics
@@ -12,19 +16,97 @@ O Scaled Agile Framework (SAFe) é uma metodologia que permite a aplicação de 
 **Objetivo:** Desenvolver um sistema que permita aos usuários criar roteiros de viagem personalizados com base em suas preferências, oferecendo sugestões relevantes e contextualizadas.
 
 **2. Gestão de Destinos e Viagens**
+
 **Objetivo:** Oferecer funcionalidades robustas para cadastro e gerenciamento de destinos e viagens, garantindo integridade e usabilidade das informações.
 
 **3. Planejamento de Itinerários**
+
 **Objetivo:** Automatizar o planejamento de itinerários, garantindo organização e flexibilidade para os usuários ajustarem os planos conforme necessário.
 
 **4. Integração com Serviços Externos**
+
 **Objetivo:**  Integrar o sistema com serviços externos para fornecer informações atualizadas sobre hotéis e atrações turísticas.
 
 **5. Gestão de Conta de Usuário**
+
 **Objetivo:**Fornecer ferramentas para os usuários gerenciarem suas contas, mantendo informações atualizadas e protegidas.
 
 **6. Visualização de Mapas e Sugestões**
+
 **Objetivo:**Exibir destinos e atividades em mapas interativos, oferecendo filtros e personalização das sugestões.
+
+
+## Capabilities
+
+**Definição:** Representam entregas amplas e de alto nível dentro de Agile Release Train que permitem atingir um objetivo estratégico. Estão abaixo dos épicos e são divididas em Features.
+
+**1. Planejamento de Itinerários**
+
+**Descrição:** Planejamento automático e manual de itinerários, garantindo organização, flexibilidade e personalização com base nas preferências do usuário.
+
+**2. Critérios de Aceitação:**
+
+- O itinerário deve ser gerado automaticamente sem sobreposição de horários e permitir ajustes manuais.
+- Exibir horários e atividades de forma clara e visualmente organizada.
+
+**3. Integração com Serviços**
+
+**Descrição:** Conexão com serviços externos para enriquecer as recomendações e oferecer informações atualizadas sobre hotéis, atrações e eventos locais.
+
+**Critérios de Aceitação:**
+
+- Atualizar informações automaticamente a partir das APIs conectadas, garantindo precisão e atualidade dos dados.
+
+**4. Visualização de Mapas**
+
+**Descrição:** Exibir destinos, atividades e sugestões em mapas interativos com recursos avançados, permitindo filtros e navegação dinâmica.
+
+**Critérios de Aceitação:**
+
+- Permitir filtros como "Restaurantes", "Atrações" e "Populares" aplicáveis em tempo real.
+- O mapa deve ser responsivo e oferecer uma navegação fluida em dispositivos móveis e desktops.
+- Dados sensíveis ou relacionados ao histórico de visualização do usuário devem ser protegidos por autenticação segura.
+
+**5. Criação de Roteiros**
+
+**Descrição:** Ferramentas para configurar roteiros baseados em destinos e atividades preferidas, com sugestões automatizadas.
+
+**Critérios de Aceitação:**
+
+- Permitir personalização de atividades por categoria.
+- Sugestões devem ser contextuais e dinâmicas.
+
+
+## Features
+
+**Definição:**Funcionalidades específicas ou entregas que oferecem valor direto ao cliente ou ao sistema. Elas podem ser completadas em um ou dois Program Increments (PI) e são divididas em Histórias de Usuário.
+
+**1. Sugestões de Atividades**
+
+**Descrição:** Exibir atividades com base nas preferências e no perfil do usuário.
+
+**Critérios de Aceitação:**
+
+- Sugestões devem ser atualizadas dinamicamente.
+
+2. Filtros por Categorias
+
+**Descrição:** Permitir aplicação de filtros para encontrar atividades específicas no mapa.
+
+**Critérios de Aceitação:**
+
+- As atividades cadastradas no mapa devem estar sempre atualizadas 
+
+**3. Edição de Roteiros**
+
+**Descrição:** Oferecer opções para editar roteiros mesmo após o planejamento inicial.
+
+**Critérios de Aceitação:**
+
+- Alterações devem ser refletidas imediatamente no itinerário.
+- Não permitir sobreposição de atividades com o mesmo horário 
+
+
 
 ## User Stories
 
