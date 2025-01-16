@@ -110,6 +110,8 @@ A seguir, apresentamos o backlog detalhado da aplicação Fast Travel.
 
 ## User Stories
 
+**Definição:** Descrições curtas e simples de uma funcionalidade desejada do ponto de vista do usuário final. 
+
 **1. Cadastro de usuário**
 
 Como usuário, quero criar minha conta e configurar minhas preferências pessoais, Como usuário, quero criar minha conta e configurar minhas preferências pessoais, para acessar sugestões relevantes de atividades ao meu destinos.
