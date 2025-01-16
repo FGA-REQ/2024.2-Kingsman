@@ -1,25 +1,100 @@
-# Backlog
+# Product Backlog - SAFe
 
-Este artefato tem o propósito de reunir informações e conteúdo do backlog desenvolvido pelo grupo para este projeto. Dois quadros foram criados na aplicação Trello, um para acompanhar todas as sprints de cada lançamento e outro para os requisitos que foram levantados nas reuniões do grupo.
+O Scaled Agile Framework (SAFe) é uma metodologia que permite a aplicação de práticas ágeis em larga escala dentro de organizações. Desenvolvido em 2011 por Dean Leffingwell e Drew Jemilo, o SAFe combina princípios de desenvolvimento ágil de software, desenvolvimento enxuto de produtos e pensamento sistêmico para auxiliar empresas a entregar soluções de forma mais eficiente e alinhada aos objetivos estratégicos.
 
-Todo o conteúdo mencionado abaixo pode ser acessado <a href="" target="_blank">aqui</a>. 
 
-## Quadro de Requisitos
-Este quadro reúne todos os requisitos levantados durante as reuniões do grupo, rotulando-os como Funcionais ou Não Funcionais e qual é a sua prioridade(baixa, média ou alta). 
+## Epics
 
-Além disso, ele contém informações sobre para qual dos quatro Lançamentos do projeto cada requisito se refere. Outro aspecto importante é o _id_ do requisito, que vem imediatamente antes de seu título, dentro de colchetes. 
+**Definição:** Grandes iniciativas estratégicas ou de negócios que exigem esforço significativo e podem levar meses para serem concluídas. São divididos em partes menores para facilitar a execução.
 
-O Quadro de Requisitos pode ser visualizado a seguir: 
+**1. Criação de Roteiros Personalizados**
 
-<iframe src="" frameBorder="0" width="500" height="500"></iframe>
+**Objetivo:** Desenvolver um sistema que permita aos usuários criar roteiros de viagem personalizados com base em suas preferências, oferecendo sugestões relevantes e contextualizadas.
 
-## Github Projects
-O Github Projects do grupo foi desenvolvido para uma organização mais adequada das issues do projeto. Cada issue é dividida em algumas categorias, como: tamanho, prioridade, responsável por ela e etc.
+**2. Gestão de Destinos e Viagens**
+**Objetivo:** Oferecer funcionalidades robustas para cadastro e gerenciamento de destinos e viagens, garantindo integridade e usabilidade das informações.
 
- Para acessar o projects da equipe basta clicar
+**3. Planejamento de Itinerários**
+**Objetivo:** Automatizar o planejamento de itinerários, garantindo organização e flexibilidade para os usuários ajustarem os planos conforme necessário.
+
+**4. Integração com Serviços Externos**
+**Objetivo:**  Integrar o sistema com serviços externos para fornecer informações atualizadas sobre hotéis e atrações turísticas.
+
+**5. Gestão de Conta de Usuário**
+**Objetivo:**Fornecer ferramentas para os usuários gerenciarem suas contas, mantendo informações atualizadas e protegidas.
+
+**6. Visualização de Mapas e Sugestões**
+**Objetivo:**Exibir destinos e atividades em mapas interativos, oferecendo filtros e personalização das sugestões.
+
+## User Stories
+
+**1. Cadastro de usuário**
+
+Como usuário, quero criar minha conta e configurar minhas preferências pessoais, Como usuário, quero criar minha conta e configurar minhas preferências pessoais, para acessar sugestões relevantes de atividades ao meu destinos.
+
+**Critérios de Aceitação:**
+
+- O sistema deve permitir o cadastro com campos obrigatórios como:
+    - Nome completo
+    - Data de nascimento (com validação para idade mínima de 18 anos)
+    - E-mail (com validação de formato)
+    - Senha (mínimo de 8 caracteres, incluindo pelo menos uma letra maiúscula, um número e um caractere especial)
+
+- O sistema deve oferecer a opção de selecionar preferências iniciais, como:
+    - Categorias de interesse (ex.: gastronomia, aventura, cultura)
+    - Tipos de destinos preferidos (ex.: praias, montanhas, cidades históricas).
+
+- O sistema deve armazenar as preferências do usuário para personalizar sugestões futuras.
+- Caso algum campo obrigatório esteja faltando ou inválido, o sistema deve exibir mensagens claras de erro.
+- Deve permitir que o usuário edite suas preferências após o cadastro inicial.
+
+**2. Criação de Roteiro**
+
+Como usuário, quero criar um roteiro com base nas minhas preferências, para aproveitar minha viagem do meu próprio jeito.
+
+**Critérios de Aceitação:**
+
+- Permitir escolha de destinos e a duração da estadia no destino. 
+- Oferecer sugestões relevantes baseadas nos gostos e na proximidade do destino.
+- As sugestões de atividade deve
+
+**3. Planejamento de Itinerário**
+
+Como usuário, quero que o sistema organize meu itinerário automaticamente, para evitar sobreposição de horários.
+
+**Critérios de Aceitação:**
+
+- Gerar itinerários que respeitem os horários já previamente selecionados.
+
+**4. Interação com o mapa**
+
+Como usuário, quero visualizar atividades e destinos em um mapa interativo, para planejar melhor meu roteiro.
+
+**Critérios de Aceitação:**
+
+- Permitir uso de filtros como "Restaurantes" e "Atrações" no mapa.
+- Permitir navegação livre pelo mapa, respeitando o local de destino. 
+- O sistema deve permitir que o usuário clique em marcadores no mapa para visualizar informações detalhadas das atividades, como descrição, horários de funcionamento e avaliações.
+- Permitir que o usuário ajuste a escala do mapa para visualizações mais amplas ou detalhadas.
+
+**5. Histórico de Roteiros**
+
+Como usuário, quero acessar roteiros antigos, para reutilizá-los em futuras viagens ou lembrar de detalhes de viagens anteriores.
+
+**Critérios de Aceitação:**
+
+- Cada roteiro deve exibir:
+    - Nome do roteiro (personalizável pelo usuário).
+    - Datas de início e término da viagem.
+    - Destinos visitados.
+    - Atividades realizadas em cada destino.
+- Permitir que o usuário pesquise roteiros antigos por:
+    - Nome do roteiro.
+    - Destinos.
+    - Datas.
 
  ## Histórico de versão
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando backlog|Miguel Arthur|
+|15/01/2025|1.0|Adicionando backlog|Danielle Rodrigues|
