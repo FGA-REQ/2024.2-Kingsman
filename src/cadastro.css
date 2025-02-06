@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    background: linear-gradient(to bottom, orange, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    max-height: 75%;
+}
+
+.right {
+    width: 50%;
+    background-color: #ffedd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FDA758;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.google-btn {
+    background-color: #db4437;
+    margin-bottom: 10px;
+}
+
+.github-btn {
+    background-color: #333;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.register-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #959191;
+}
+
+
+
