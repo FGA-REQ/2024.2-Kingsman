@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAST Travel</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="../images/logo.png" alt="">
+        </div>
+        <button class="button">Meus roteiros</button>
+    </header>
+
+    <section class="section">
+        <h2>Passeios</h2>
+        <div class="input-group">
+            <select id="destino">
+                <option value="" disabled selected>Destino</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Fortaleza</option>
+                <option>Curitiba</option>
+                <option>Natal</option>
+            </select>
+
+            <input type="date" id="date">
+            <select id="people">
+                <option>2 adultos • 0 crianças</option>
+                <option>1 adulto</option>
+                <option>2 adultos</option>
+                <option>3 adultos</option>
+                <option>0 crianças</option>
+                <option>1 criança</option>
+            </select>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Quais são os seus interesses principais para a viagem?</h2>
+        <div class="grid" id="interests-container"></div>
+        <div class="center">
+            <button class="button">Gerar roteiros</button>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const interests = [
+                { name: "Gastronomia", image: "../images/gastronomia.jpg" },
+                { name: "Vida Noturna", image: "../images/vida-noturna.jpg" },
+                { name: "Cultura", image: "../images/cultura.jpg" },
+                { name: "Lazer", image: "../images/lazer.jpg" }
+
+            ];
+
+            const container = document.getElementById("interests-container");
+
+            interests.forEach(interest => {
+                const div = document.createElement("div");
+                div.className = "interest-card";
+                div.innerHTML = `
+                    <img src="${interest.image}" alt="${interest.name}" />
+                    <p>${interest.name}</p>
+                `;
+                div.addEventListener("click", () => {
+                    div.classList.toggle("selected");
+                });
+                container.appendChild(div);
+            });
+        });
+    </script>
+</body>
+</html>

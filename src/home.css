@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/tela-fundo.jpeg');
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+header img{
+    width: 180px;
+}
+.button {
+    background-color: #F0DCDC;
+    color: black;
+    border: none;
+    padding: 10px 40px;
+    margin-right: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.section {
+    background-color: #FDA758;
+    margin: 20px;
+    margin-bottom: 90px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2{
+    text-align: center;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espaçamento entre as colunas e linhas */
+    margin: 0 auto;
+    max-width: 1200px; /* Opcional, para limitar o tamanho máximo */
+}
+.interest-card {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 20%; /* Aproximadamente 4 imagens por linha */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre as linhas */
+}
+.interest-card img {
+    width: 50%; /* Faz a imagem preencher a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Arredonda as bordas da imagem (opcional) */
+}
+.interest-card.selected {
+    border: 2px solid #573353;
+    background-color: #FABD7F;
+}
+
+.interest-card p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
