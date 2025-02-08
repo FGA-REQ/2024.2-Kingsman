@@ -1,60 +1,50 @@
-# Descrição Geral do Processo de Desenvolvimento 
+# Descrição Geral do Processo de Desenvolvimento  
 
-O projeto envolve o desenvolvimento de um website de itinerários personalizados, o que demanda várias etapas, desde a concepção do produto até sua entrega final. O processo irá ser modelado com base nas seguintes fases:
+O projeto envolve o desenvolvimento de um website de itinerários personalizados, passando por várias etapas, desde a concepção até a entrega final.  
 
-1. Levantamento de Requisitos
-2. Planejamento
-3. Design e Prototipagem
-4. Desenvolvimento
-5. Testes e Validação
-6. Entrega e Implantação
+## Modelagem BPMN  
 
-## Modelagem BPMN
+### Evento Inicial  
+**Recebimento das necessidades do cliente**  
 
-### 1. Levantamento de Requisitos
-#### Atividades:
-- Entender o objetivo do website com o cliente.
-- Identificar funcionalidades básicas (cadastro de usuários, geração de itinerários, etc.).
-- Levantar requisitos não funcionais (tempo de resposta, responsividade, etc.).
-  
-#### Entrada: 
-Ideia inicial do cliente.
-#### Saída: 
-Documento de requisitos.
+### 1. Levantamento de Requisitos  
+#### Atividades:  
+- Entender o objetivo do website com o cliente.  
+- Identificar funcionalidades básicas (cadastro de usuários, geração de itinerários, etc.).  
+- Levantar requisitos não funcionais (tempo de resposta, responsividade, etc.).  
 
-### 2. Planejamento
-#### Atividades:
-- Criar o plano de desenvolvimento.
-- Estimar esforços e cronogramas.
-- Identificar recursos necessários.
+### 2. Planejamento  
+#### Atividades:  
+- Criar o plano de desenvolvimento.  
+- Estimar esforços e cronogramas.  
+- Identificar recursos necessários.  
 
+### 3. Design e Prototipagem  
+#### Atividades:  
+- Criar wireframes para o website.  
+- Elaborar protótipos navegáveis (usando ferramentas como Figma).  
+- Definir a arquitetura do sistema.  
 
-### 3. Design e Prototipagem
-#### Atividades:
-- Criar wireframes para o website.
-- Elaborar protótipos navegáveis (usando ferramentas como Figma).
-- Definir a arquitetura do sistema.
-  
+### 4. Desenvolvimento  
+#### Atividades:  
+- Implementar o backend (ex.: APIs para geração de itinerários personalizados).  
+- Desenvolver o frontend (interface visual).  
+- Integrar as partes do sistema.  
 
-### 4. Desenvolvimento
-#### Atividades:
-- Implementar o backend (ex.: APIs para geração de itinerários personalizados).
-- Desenvolver o frontend (interface visual).
-- Integrar as partes do sistema.
-  
+### 5. Testes e Validação  
+#### Atividades:  
+- Realizar testes funcionais e de interface.  
+- Validar o funcionamento do sistema com base nos requisitos.  
+- Coletar feedback do cliente.  
 
-### 5. Testes e Validação
-#### Atividades:
-- Realizar testes funcionais e de interface.
-- Validar o funcionamento do sistema com base nos requisitos.
-- Coletar feedback do cliente.
-  
+### 6. Entrega e Implantação  
+#### Atividades:  
+- Realizar treinamento para uso do sistema.  
+- Implantar o website em ambiente de produção.  
+- Monitorar os primeiros usos.  
 
-### 6. Entrega e Implantação
-#### Atividades:
-- Realizar treinamento para uso do sistema.
-- Implantar o website em ambiente de produção.
-- Monitorar os primeiros usos.
+### Evento Final  
+**Website implantado e aceito pelo cliente**  
 
 
 ### 7. Diagrama BPMN
