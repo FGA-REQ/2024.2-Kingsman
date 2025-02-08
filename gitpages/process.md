@@ -27,11 +27,7 @@ Documento de requisitos.
 - Criar o plano de desenvolvimento.
 - Estimar esforços e cronogramas.
 - Identificar recursos necessários.
-  
-#### Entrada: 
-Documento de requisitos.
-#### Saída: 
-Plano do projeto e cronograma.
+
 
 ### 3. Design e Prototipagem
 #### Atividades:
@@ -39,10 +35,6 @@ Plano do projeto e cronograma.
 - Elaborar protótipos navegáveis (usando ferramentas como Figma).
 - Definir a arquitetura do sistema.
   
-#### Entrada: 
-Documento de requisitos e plano do projeto.
-#### Saída: 
-Prototipagem do website e arquitetura definida.
 
 ### 4. Desenvolvimento
 #### Atividades:
@@ -50,10 +42,6 @@ Prototipagem do website e arquitetura definida.
 - Desenvolver o frontend (interface visual).
 - Integrar as partes do sistema.
   
-### Entrada: 
-Prototipagem e arquitetura do sistema.
-### Saída: 
-Website funcional.
 
 ### 5. Testes e Validação
 #### Atividades:
@@ -61,26 +49,17 @@ Website funcional.
 - Validar o funcionamento do sistema com base nos requisitos.
 - Coletar feedback do cliente.
   
-#### Entrada: 
-Website funcional.
-#### Saída: 
-Versão ajustada e validada.
 
 ### 6. Entrega e Implantação
 #### Atividades:
 - Realizar treinamento para uso do sistema.
 - Implantar o website em ambiente de produção.
 - Monitorar os primeiros usos.
-  
-#### Entrada: 
-Website validado.
-#### Saída: 
-Website em produção e documentado.
 
 
 ### 7. Diagrama BPMN
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVLtWQQ58=/?moveToViewport=-5020,-1609,6164,3217&embedId=845026760974" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+<iframe width="768" height="432" src="https://miro.com/app/board/uXjVLib3QKU=/?share_link_id=478590159122" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 ## Histórico de versão
 
@@ -88,3 +67,4 @@ Website em produção e documentado.
 |--|--|--|--|
 |15/01/2025|1.0|Adicionando processo de desenvolvimento|Amanda Abreu|
 |15/01/2025|1.1| Adicionando diagrama BPMN | Harleny Angéllica |
+|06/02/2025|1.2| Atualizando a descrição geral do processo de desenvolvimento e a notação BPMN | Harleny Angéllica |
