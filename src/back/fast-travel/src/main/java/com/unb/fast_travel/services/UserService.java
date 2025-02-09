@@ -1,6 +1,6 @@
 package com.unb.fast_travel.services;
 
-import com.unb.fast_travel.models.User;
+import com.unb.fast_travel.models.Usuario;
 import com.unb.fast_travel.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
@@ -16,24 +16,24 @@ public class UserService {
 		this.userRepository = userRepository;
 	}
 
-	public User save(User user) {
-		return userRepository.save(user);
+	public Usuario save(Usuario usuario) {
+		return userRepository.save(usuario);
 	}
 
 	public void delete(Long id) {
-		Optional<User> removed = findById(id);
+		Optional<Usuario> removed = findById(id);
 		removed.ifPresent(userRepository::delete);
 	}
 
-	public Optional<User> findById(Long id) {
+	public Optional<Usuario> findById(Long id) {
 		return userRepository.findById(id);
 	}
 
-	public Optional<User> findByEmail(String email) {
+	public Optional<Usuario> findByEmail(String email) {
 		return userRepository.findByEmail(email);
 	}
 
-	public List<User> findAll() {
+	public List<Usuario> findAll() {
 		return userRepository.findAll();
 	}
 

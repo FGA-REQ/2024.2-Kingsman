@@ -1,6 +1,0 @@
-com/unb/fast_travel/services/UserService.class
-com/unb/fast_travel/controllers/UserController.class
-com/unb/fast_travel/models/User.class
-com/unb/fast_travel/config/OpenApiConfig.class
-com/unb/fast_travel/repositories/UserRepository.class
-com/unb/fast_travel/FastTravelApplication.class
