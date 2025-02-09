@@ -93,4 +93,4 @@ Portanto, um item só pode ser considerado **"Done"** quando todos os critérios
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|16/02/2025|1.0|Adicionando  Definição de Done (DoD)|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|08/02/2025|1.0|Adicionando  Definição de Done (DoD)|[Harleny Angéllica](https://github.com/Angelicahaas)|
