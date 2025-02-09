@@ -97,6 +97,6 @@ Essas ações garantirão que o projeto permaneça dentro do escopo e alcance os
 
 | Versão |    Data    | Modificação                                                                                |                     Autor                     |
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | :-------------------------------------------: |
-|  1.0   | 13/01/2024 | Criação do processo de desenvolvimento                                                     |  [Amanda](https://github.com/Amandaaaaabreu)  |
-|  2.0   | 14/01/2024 | Separação das partes dos requisitos em diferentes documentos e transformação para MarkDown | [Felipe de Sousa](https://github.com/fsousac) |
-|  2.1   | 15/01/2024 | Inserção das tecnologias utilizadas                                                        | [Felipe de Sousa](https://github.com/fsousac) |
+|  1.0   | 13/01/2025 | Criação do processo de desenvolvimento                                                     |  [Amanda](https://github.com/Amandaaaaabreu)  |
+|  2.0   | 14/01/2025 | Separação das partes dos requisitos em diferentes documentos e transformação para MarkDown | [Felipe de Sousa](https://github.com/fsousac) |
+|  2.1   | 15/01/2025 | Inserção das tecnologias utilizadas                                                        | [Felipe de Sousa](https://github.com/fsousac) |

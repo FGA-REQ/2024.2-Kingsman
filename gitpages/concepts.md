@@ -6,6 +6,6 @@ Essa seção é dedicada a conceitos e definições importantes relacionados ao 
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando conceitos|Miguel Arthur|
+|15/01/2025|1.0|Adicionando conceitos|[Miguel](https://avatars.githubusercontent.com/u/98031566?v=4)|
 
 

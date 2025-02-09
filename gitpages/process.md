@@ -41,7 +41,7 @@ O projeto envolve o desenvolvimento de um website de itinerários personalizados
 
 ### 5. Testes e Validação  
 #### Atividades:  
-- Realizar testes funcionais e de interface.  
+- Realizar testes manuais.  
 - Validar o funcionamento do sistema com base nos requisitos.  
 - Coletar feedback do cliente.  
 

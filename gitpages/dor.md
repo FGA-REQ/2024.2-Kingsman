@@ -88,5 +88,5 @@ Ter um DoR bem definido facilita a comunicação entre os membros da equipe e aj
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/02/2025|1.0|Adicionando  Definição de Ready (DoR)|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|08/02/2025|1.0|Adicionando  Definição de Ready (DoR)|[Harleny Angéllica](https://github.com/Angelicahaas)|
 |09/02/2025|1.1|Adicionando descrição, conclusão e referências|[Harleny Angéllica](https://github.com/Angelicahaas)|

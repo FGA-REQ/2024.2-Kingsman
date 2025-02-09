@@ -21,3 +21,14 @@ Aqui está o vídeo gravado sobre o desenvolvimento e os detalhes do projeto, in
   <source src="videos/projeto_completo.mp4" type="video/mp4">
   Seu navegador não suporta o elemento de vídeo.
 </video>
+
+## Protótipo do Figma
+
+Aqui está o link para o protótipo do projeto desenvolvido no Figma, onde você pode visualizar o design da interface e interações do sistema:
+
+[Protótipo do Figma](https://www.figma.com/design/YBUKRpvroAjgIDygePF9Tl/Prototipo-MyTravel?node-id=0-1&p=f&t=qhXDpnhMGkpqP5yo-0)
+
+|Data|Versão|Descrição|Autores|
+|--|--|--|--|
+|09/02/2025|1.0|Adicionando site|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|09/02/2025|1.0|Adicionando protótipo do Figma |[Harleny Angéllica](https://github.com/Angelicahaas)|

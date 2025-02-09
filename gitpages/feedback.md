@@ -5,7 +5,7 @@ Aqui você encontrará os vídeos das reuniões realizadas com o cliente, que do
 
 ### Vídeo : Conversa sobre o Escopo do Projeto
 
-[Assista ao vídeo](https://www.seuprojeto.com/cliente/videos/conversa_escopo.mp4)
+[Assista ao vídeo](https://youtu.be/r6DlSjPVAkI4)
 
 Descrição: Neste vídeo, discutimos o escopo inicial do projeto, as funcionalidades esperadas e o cronograma do desenvolvimento.
 
@@ -13,3 +13,4 @@ Descrição: Neste vídeo, discutimos o escopo inicial do projeto, as funcionali
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
 |09/02/2025|1.0|Adicionando feedback do cliente|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|09/02/2025|1.1|Adicionando vídeo|[Harleny Angéllica](https://github.com/Angelicahaas)|

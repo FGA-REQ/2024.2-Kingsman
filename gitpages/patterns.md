@@ -93,5 +93,5 @@ O template de ata de reunião pode ser encontrado <a href="" target="_blank">aqu
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando padrões de commit e templates|Miguel Arthur|
-|15/01/2025|1.1|Adicionando padrões de commit e templates|Amanda Abreu|
+|15/01/2025|1.0|Adicionando padrões de commit e templates|[Miguel](https://avatars.githubusercontent.com/u/98031566?v=4)|
+|15/01/2025|1.1|Adicionando padrões de commit e templates|[Amanda Abreu](https://github.com/Amandaaaaabreu)|

@@ -8,7 +8,7 @@ nav:
       - Processo de desenvolvimento: "process.md"
       - Definition of Ready (DoR): "dor.md"
       - Definition of Done (DoD): "dod.md"
-      - Feedback do Cliente: "feedback.md
+      - Feedback do Cliente: "feedback.md"
   - Requisitos: "requirements.md"
   - Backlog: "backlog.md"
   - Sprints: "sprints.md"
