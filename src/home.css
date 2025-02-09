@@ -17,7 +17,7 @@ header img{
     width: 180px;
 }
 .button {
-    background-color: #F0DCDC;
+    background-color: #FDA758;
     color: black;
     border: none;
     padding: 10px 40px;
@@ -27,13 +27,16 @@ header img{
 }
 
 .button-roteiro {
+    font-weight: bold;
     text-align: center;
     font-size: 1.0rem;
     cursor: pointer;
     padding: 10px 40px;
     margin-right: 1px;
+    margin-left: 30px;
+    margin-bottom: 55px;
     border-radius: 5px;
-    background-color: #F0DCDC;
+    background-color: #FDA758;
     color: black;
     border: none;
     
