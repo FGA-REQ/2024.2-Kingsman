@@ -25,15 +25,11 @@ A seguir, apresentamos o backlog detalhado da aplicação Fast Travel.
 
 **4. Integração com Serviços Externos**
 
-**Objetivo:**  Integrar o sistema com serviços externos para fornecer informações atualizadas sobre hotéis e atrações turísticas.
+**Objetivo:**  Integrar o sistema com serviços externos para fornecer informações atualizadas sobre atrações turísticas.
 
 **5. Gestão de Conta de Usuário**
 
 **Objetivo:**Fornecer ferramentas para os usuários gerenciarem suas contas, mantendo informações atualizadas e protegidas.
-
-**6. Visualização de Mapas e Sugestões**
-
-**Objetivo:**Exibir destinos e atividades em mapas interativos, oferecendo filtros e personalização das sugestões.
 
 
 ## Capabilities
@@ -91,11 +87,11 @@ A seguir, apresentamos o backlog detalhado da aplicação Fast Travel.
 
 2. Filtros por Categorias
 
-**Descrição:** Permitir aplicação de filtros para encontrar atividades específicas no mapa.
+**Descrição:** Permitir aplicação de filtros para encontrar atividades específicas.
 
 **Critérios de Aceitação:**
 
-- As atividades cadastradas no mapa devem estar sempre atualizadas 
+- As atividades cadastradas devem estar sempre atualizadas 
 
 **3. Edição de Roteiros**
 
@@ -103,8 +99,7 @@ A seguir, apresentamos o backlog detalhado da aplicação Fast Travel.
 
 **Critérios de Aceitação:**
 
-- Alterações devem ser refletidas imediatamente no itinerário.
-- Não permitir sobreposição de atividades com o mesmo horário 
+-O sistema deve permitir ao usuário editar os destinos e atividades.
 
 
 
@@ -120,14 +115,11 @@ Como usuário, quero criar minha conta e configurar minhas preferências pessoai
 
 - O sistema deve permitir o cadastro com campos obrigatórios como:
     - Nome completo
-    - Data de nascimento (com validação para idade mínima de 18 anos)
+    - Data de nascimento 
     - E-mail (com validação de formato)
-    - Senha (mínimo de 8 caracteres, incluindo pelo menos uma letra maiúscula, um número e um caractere especial)
-
+    - Senha 
 - O sistema deve oferecer a opção de selecionar preferências iniciais, como:
-    - Categorias de interesse (ex.: gastronomia, aventura, cultura)
-    - Tipos de destinos preferidos (ex.: praias, montanhas, cidades históricas).
-
+    - Categorias de interesse (ex.: gastronomia, lazer, cultura)
 - O sistema deve armazenar as preferências do usuário para personalizar sugestões futuras.
 - Caso algum campo obrigatório esteja faltando ou inválido, o sistema deve exibir mensagens claras de erro.
 - Deve permitir que o usuário edite suas preferências após o cadastro inicial.
@@ -138,47 +130,35 @@ Como usuário, quero criar um roteiro com base nas minhas preferências, para ap
 
 **Critérios de Aceitação:**
 
-- Permitir escolha de destinos e a duração da estadia no destino. 
-- Oferecer sugestões relevantes baseadas nos gostos e na proximidade do destino.
-- As sugestões de atividade deve
+- O sistema deve permitir ao usuário escolher os destinos. 
+- O sistema deve oferecer sugestões relevantes baseadas nas preferências do usuário.
 
-**3. Planejamento de Itinerário**
+**3. Interação com as Atividades**
 
-Como usuário, quero que o sistema organize meu itinerário automaticamente, para evitar sobreposição de horários.
-
-**Critérios de Aceitação:**
-
-- Gerar itinerários que respeitem os horários já previamente selecionados.
-
-**4. Interação com o mapa**
-
-Como usuário, quero visualizar atividades e destinos em um mapa interativo, para planejar melhor meu roteiro.
+Como usuário, quero selecionar atividades de interesse de uma lista filtrada, para que eu possa planejar meu roteiro de forma personalizada e eficiente.
 
 **Critérios de Aceitação:**
 
-- Permitir uso de filtros como "Restaurantes" e "Atrações" no mapa.
-- Permitir navegação livre pelo mapa, respeitando o local de destino. 
-- O sistema deve permitir que o usuário clique em marcadores no mapa para visualizar informações detalhadas das atividades, como descrição, horários de funcionamento e avaliações.
-- Permitir que o usuário ajuste a escala do mapa para visualizações mais amplas ou detalhadas.
+- O sistema deve permitir que o usuário visualize uma lista de atividades filtradas por categorias como "Gastronomia" e "Lazer".
+- O usuário deve ser capaz de marcar ou desmarcar atividades usando checkboxes.
+- O sistema deve exibir informações de cada atividade quando gerar o roteiro, como descrição e localização.
+- O sistema deve permitir que o usuário edite suas preferências de atividades a qualquer momento.
 
-**5. Histórico de Roteiros**
 
-Como usuário, quero acessar roteiros antigos, para reutilizá-los em futuras viagens ou lembrar de detalhes de viagens anteriores.
+**4. Histórico de Roteiros**
+
+Como usuário, quero acessar roteiros antigos para lembrar de detalhes de viagens anteriores.
 
 **Critérios de Aceitação:**
 
-- Cada roteiro deve exibir:
-    - Nome do roteiro (personalizável pelo usuário).
-    - Datas de início e término da viagem.
-    - Destinos visitados.
-    - Atividades realizadas em cada destino.
-- Permitir que o usuário pesquise roteiros antigos por:
-    - Nome do roteiro.
-    - Destinos.
-    - Datas.
+- O histórico de roteiros deve ser exibido de maneira clara e acessível.
+- Permitir que o usuário pesquise roteiros antigos.
+- O sistema deve garantir que o histórico esteja atualizado e seja consultável sem falhas.
+
 
  ## Histórico de versão
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando backlog|Danielle Rodrigues|
+|15/01/2025|1.0|Adicionando backlog|[Danielle Rodrigues](https://github.com/Danizelle)|
+|08/02/2025|2.0|Atualizando  Epics, Features e User Story|[Harleny Angéllica](https://github.com/Angelicahaas)|
