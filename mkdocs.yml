@@ -12,7 +12,6 @@ nav:
   - Requisitos: "requirements.md"
   - Backlog: "backlog.md"
   - Sprints: "sprints.md"
-  - Conceitos: "concepts.md"
   - Site: "site.md"
 
 theme:
