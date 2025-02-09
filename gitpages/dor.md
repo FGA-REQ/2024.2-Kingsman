@@ -1,5 +1,9 @@
 # Definição de Ready (DoR)
 
+O Definition of Ready (DoR) é um documento essencial para garantir que os itens do backlog estejam bem definidos e prontos para serem iniciados. Ele ajuda a acelerar o processo de conclusão das tarefas durante a sprint, alinhando a equipe sobre o que deve ser feito e evitando que o time comece tarefas que ainda não estão completamente preparadas.
+
+Além disso, o DoR é crucial para garantir que os itens do backlog sejam entregues no prazo estipulado, prevenindo atrasos. Quando um item do backlog não atende aos critérios do DoR, há o risco de que um dos requisitos demore mais do que o esperado para ser cumprido, o que pode comprometer o cronograma da sprint.
+
 ## 1. Cadastro de usuário
 
 ### Requisitos Técnicos:
@@ -66,7 +70,23 @@
 - Banco de dados para armazenar históricos de roteiros.
 - Funcionalidade de busca.
 
+---
+
+## Conclusão
+
+Ter um DoR bem definido facilita a comunicação entre os membros da equipe e ajuda a manter o foco, resultando em uma execução mais eficiente e no cumprimento dos prazos estabelecidos.
+
+---
+## Referências
+
+- [PM3 - Glossário: Definition of Ready (DoR)](https://pm3.com.br/glossario/definition-of-ready-dor/?gad_source=1&gclid=CjwKCAiAwaG9BhAREiwAdhv6Y8iRkLbqV8uinYA9Ym6eADhnY0EMJmsaTzjU0ID83yPnbjgE1GhH2RoC0wcQAvD_BwE)
+- [Atlassian - O que é o Definition of Ready?](https://www.atlassian.com/agile/project-management/definition-of-ready)
+- [Macher Tecnologia - O que é o Definition of Ready?](https://www.machertecnologia.com.br/definition-of-ready-definition-of-done/)
+
+---
+
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando  Definição de Ready (DoR)|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|15/02/2025|1.0|Adicionando  Definição de Ready (DoR)|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|09/02/2025|1.1|Adicionando descrição, conclusão e referências|[Harleny Angéllica](https://github.com/Angelicahaas)|

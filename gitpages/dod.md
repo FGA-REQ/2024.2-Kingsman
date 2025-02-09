@@ -82,13 +82,15 @@ Portanto, um item só pode ser considerado **"Done"** quando todos os critérios
 
 ---
 
+
 ## Referências
 
 - [PM3 - Glossário: Definition of Done (DoD)](https://pm3.com.br/glossario/definition-of-done-dod/)
 - [Scrum.org - Entenda de uma vez por todas o que é Definition of Done](https://www.scrum.org/resources/blog/entenda-de-uma-vez-por-todas-o-que-e-definition-done)
 - [Atlassian - O que é o Definition of Done?](https://www.atlassian.com/agile/project-management/definition-of-done)
 
+---
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|16/01/2025|1.0|Adicionando  Definição de Done (DoD)|[Harleny Angéllica](https://github.com/Angelicahaas)|
+|16/02/2025|1.0|Adicionando  Definição de Done (DoD)|[Harleny Angéllica](https://github.com/Angelicahaas)|

@@ -1,1 +1,23 @@
-# Sobre o Software
+# Descrição do Site
+
+O site **Kingsman** foi desenvolvido com o objetivo de proporcionar uma plataforma prática e personalizada para o planejamento de roteiros de viagem. A plataforma permite que os usuários escolham seus destinos preferidos, descubram atividades recomendadas e criem roteiros personalizados com base em suas preferências. A experiência é voltada para uma navegação simples e intuitiva, com recursos de personalização que garantem que cada viagem seja única.
+
+## Funcionalidades
+
+- **Cadastro de Usuário**: Os usuários podem se cadastrar, criar suas preferências de viagem e editar seus dados quando necessário.
+- **Criação de Roteiros**: O sistema sugere atividades com base nas preferências do usuário e permite a personalização de roteiros.
+- **Histórico de Viagens**: A plataforma armazena o histórico de roteiros criados para fácil acesso a roteiros anteriores.
+- **Sugestões de Destinos e Atividades**: Com base nas preferências do usuário, o site sugere destinos e atividades que correspondem ao seu perfil.
+
+## Visão do Projeto
+
+O projeto **Kingsman** tem como principal objetivo oferecer aos usuários uma experiência única e personalizada no planejamento de viagens. A interface foi projetada para ser amigável e fácil de navegar, permitindo que qualquer pessoa possa criar um roteiro de viagem completo sem dificuldades.
+
+## Vídeo do Projeto Completo
+
+Aqui está o vídeo gravado sobre o desenvolvimento e os detalhes do projeto, incluindo nossa interação com o cliente e os desafios que enfrentamos ao longo do processo.
+
+<video width="100%" controls>
+  <source src="videos/projeto_completo.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>

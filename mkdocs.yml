@@ -2,16 +2,18 @@ site_name: FastTravel
 docs_dir: gitpages
 nav:
   - Home: "index.md"
-  - Conceitos: "concepts.md"
-  - Site: "site.md"
   - Visão de produto e projeto:
       - Visão de produto e projeto: "vision-product-project.md"
       - Padrões de desenvolvimento: "patterns.md"
       - Processo de desenvolvimento: "process.md"
       - Definition of Ready (DoR): "dor.md"
+      - Definition of Done (DoD): "dod.md"
+      - Feedback do Cliente: "feedback.md
+  - Requisitos: "requirements.md"
   - Backlog: "backlog.md"
-  - Artes e referências: "references.md"
   - Sprints: "sprints.md"
+  - Conceitos: "concepts.md"
+  - Site: "site.md"
 
 theme:
   name: material
