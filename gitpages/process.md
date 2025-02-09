@@ -55,6 +55,6 @@ O projeto envolve o desenvolvimento de um website de itinerários personalizados
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|
-|15/01/2025|1.0|Adicionando processo de desenvolvimento|Amanda Abreu|
-|15/01/2025|1.1| Adicionando diagrama BPMN | Harleny Angéllica |
-|06/02/2025|1.2| Atualizando a descrição geral do processo de desenvolvimento e a notação BPMN | Harleny Angéllica |
+|15/01/2025|1.0|Adicionando processo de desenvolvimento|[Amanda Abreu](https://github.com/Amandaaaaabreu)|
+|15/01/2025|1.1| Adicionando diagrama BPMN | [Harleny Angéllica](https://github.com/Angelicahaas) |
+|07/02/2025|1.2| Atualizando a descrição geral do processo de desenvolvimento e a notação BPMN | [Harleny Angéllica](https://github.com/Angelicahaas) |

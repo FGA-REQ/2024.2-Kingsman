@@ -8,6 +8,7 @@ nav:
       - Visão de produto e projeto: "vision-product-project.md"
       - Padrões de desenvolvimento: "patterns.md"
       - Processo de desenvolvimento: "process.md"
+      - Definition of Ready (DoR): "dor.md"
   - Backlog: "backlog.md"
   - Artes e referências: "references.md"
   - Sprints: "sprints.md"
