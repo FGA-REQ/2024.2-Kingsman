@@ -24,11 +24,12 @@ Com **Fast Travel**, o usuário pode explorar destinos, escolher atividades com 
 
 | Nome                              | GitHub         | Foto                                                       |
 | --------------------------------- | -------------- | ---------------------------------------------------------- |
-| **Amanda Gonçalves S. Abreu**     | [Amandaaaaabreu](https://github.com/Amandaaaaabreu) | ![Amanda](https://avatars.githubusercontent.com/u/103958998?v=4) |
-| **Danielle Rodrigues Silva**      | [Danizelle](https://github.com/Danizelle) | ![Danielle](https://avatars.githubusercontent.com/u/101230741?v=4) |
-| **Harleny Angéllica Araújo de Sousa** | [Angelicahaas](https://github.com/Angelicahaas) | ![Harleny](https://avatars.githubusercontent.com/u/101184511?v=4) |
-| **Felipe de Sousa Coelho**        | [Fsousac](https://github.com/fsousac) | ![Felipe](https://avatars.githubusercontent.com/u/95441810?v=4) |
-| **Miguel Arthur Oliveira de Lima** | [zlimaz](https://github.com/zlimaz) | ![Miguel](https://avatars.githubusercontent.com/u/98031566?v=4) |
+| Amanda Gonçalves S. Abreu         | Amandaaaaabreu | [<img src="https://avatars.githubusercontent.com/u/103958998?v=4" width=50>](https://github.com/Amandaaaaabreu) |
+| Danielle Rodrigues Silva          | Danizelle      | [<img src="https://avatars.githubusercontent.com/u/101230741?v=4" width=50>](https://github.com/Danizelle)      |
+| Harleny Angéllica Araújo de Sousa | Angelicahaas   | [<img src="https://avatars.githubusercontent.com/u/101184511?v=4" width=50>](https://github.com/Angelicahaas)   |
+| Felipe de Sousa Coelho            | Fsousac        | [<img src="https://avatars.githubusercontent.com/u/95441810?v=4" width=50>](https://github.com/fsousac)         |
+| Miguel Arthur Oliveira de Lima           | zlimaz       | [<img src="https://avatars.githubusercontent.com/u/98031566?v=4" width=50>](https://github.com/zlimaz)         |
+
 
 ---
 
