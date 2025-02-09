@@ -25,11 +25,29 @@ header img{
     cursor: pointer;
     border-radius: 5px;
 }
+
+.button-roteiro {
+    text-align: center;
+    font-size: 1.0rem;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin-right: 1px;
+    border-radius: 5px;
+    background-color: #F0DCDC;
+    color: black;
+    border: none;
+    
+}
+
+.button-roteiro a{
+    text-decoration: none;
+    color: black;
+}
 .section {
     background-color: #FDA758;
-    margin: 20px;
+    margin: 40px;
     margin-bottom: 90px;
-    padding: 20px;
+    padding: 12px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -75,7 +93,7 @@ input, select {
     margin-bottom: 20px; /* Espaçamento entre as linhas */
 }
 .interest-card img {
-    width: 50%; /* Faz a imagem preencher a largura do container */
+    width: 60%; /* Faz a imagem preencher a largura do container */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Arredonda as bordas da imagem (opcional) */
 }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roteiro personalizado</title>
+    <link rel="stylesheet" href="roteiro.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="../images/logo.png" alt="">
+        </div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-roteiro">Seu Roteiro de Viagem Personalizado Para: <span id="cidade-selecionada"></span></h2>
+        <div id="selected-interests"></div>
+    </section> 
+
+    <script>
+                document.addEventListener("DOMContentLoaded", function() {
+            // Recupera a cidade selecionada do localStorage
+            const cidadeSelecionada = localStorage.getItem("cidadeSelecionada") || "Destino Desconhecido";
+            
+            // Atualiza o título com a cidade selecionada
+            const cidadeSpan = document.getElementById("cidade-selecionada");
+            cidadeSpan.textContent = cidadeSelecionada;
+            
+
+            // Recupera os interesses selecionados
+            const selectedInterests = JSON.parse(localStorage.getItem("selectedInterests")) || [];
+            const selectedInterestsContainer = document.getElementById("selected-interests");
+
+            if (selectedInterests.length === 0) {
+                selectedInterestsContainer.innerHTML = "<p>Nenhum interesse selecionado.</p>";
+                return;
+            }
+
+            // Dados fictícios para os cards de cada interesse
+            const cardsData = {
+                "Gastronomia": [
+                    {
+                        img: "../images/confeitaria-colobo.jpg",
+                        title: "Confeitaria Colombo",
+                        description: "Fundada em 1894, é uma confeitaria histórica no centro do Rio de Janeiro, famosa por sua arquitetura deslumbrante e variedade de doces e salgados.",
+                        location: " Rua Gonçalves Dias 32, Rio de Janeiro, Estado do Rio de Janeiro 20050-030 Brasil"
+                    },
+                    {
+                        img: "../images/bar-urca.jpg",
+                        title: "Bar Urca",
+                        description: "Localizado no bairro da Urca, oferece petiscos deliciosos e uma vista panorâmica da Baía de Guanabara, sendo um ponto popular para apreciar o pôr do sol.",
+                        location: "Rua Candido Gaffree 205 Urca, Rio de Janeiro, Estado do Rio de Janeiro 22291-080 Bras"
+                    },
+                    {
+                        img: "../images/ct.jpg",
+                        title: "CT Boucherie",
+                        description: "Restaurante francês do chef Claude Troisgros, especializado em carnes de alta qualidade, acompanhado por uma variedade de guarnições servidas à vontade.",
+                        location:  "Rua Gonçalves Dias 32, Rio de Janeiro, RJ - 20050-030"
+                    }
+                ],
+                "Lazer": [
+                    {
+                        img: "../images/pao-de-acucar.jpg",
+                        title: "Pão de Açúcar",
+                        description: "Localizado no bairro da Urca, o Pão de Açúcar é um dos marcos mais emblemáticos do Rio de Janeiro. O acesso ao topo é feito por meio de um bondinho que opera desde 1912, proporcionando vistas panorâmicas deslumbrantes da cidade, incluindo a Baía de Guanabara, Copacabana e o Cristo Redentor.",
+                        location: "O Pão de Açúcar está localizado na Av. Pasteur, 520 - Urca, Rio de Janeiro - RJ, 22290-240, Brasil. Você pode chegar de metrô, desembarcando na estação Botafogo, saída E - Mena Barreto"
+                    },
+                    {
+                        img: "../images/cristo-redentor.jpg",
+                        title: "Cristo Redento",
+                        description: "Situado no topo do Morro do Corcovado, a 710 metros de altitude, o Cristo Redentor é uma das Sete Maravilhas do Mundo Moderno. A estátua de 30 metros de altura oferece uma vista panorâmica que abrange grande parte da cidade, como a Lagoa Rodrigo de Freitas, as praias de Copacabana e Ipanema, e a Baía de Guanabara.",
+                         location: "O Cristo Redentor fica no Morro do Corcovado, localizado no Parque Nacional da Tijuca"
+                    },
+                    {
+                        img: "../images/praias.jpg",
+                        title: "Praias de Copacabana e Ipanema",
+                        description: "Localizadas na Zona Sul do Rio de Janeiro, essas praias são famosas por suas areias brancas e águas convidativas. Copacabana é conhecida por seu calçadão icônico em padrão de ondas e é palco de eventos como o Réveillon. Ipanema, por sua vez, é celebrada por sua atmosfera vibrante e foi imortalizada na música Garota de Ipanema. Ambas as praias são ideais para banho de mar, esportes ao ar livre e apreciar o pôr do sol.",
+                        location: "A Praia de Ipanema está localizada no bairro de Ipanema, na Zona Sul do município do Rio de Janeiro."
+                    }
+                ],
+                "Cultura": [
+                    {
+                        img: "../images/museu-amanha.jpg",
+                        title: "Museu do Amanhã",
+                        description: "Inaugurado em 2015, este museu de ciências explora as possibilidades futuras da humanidade por meio de exposições interativas que combinam ciência, arte e tecnologia. Destaca-se por sua arquitetura futurista e sustentável, projetada pelo arquiteto espanhol Santiago Calatrava.",
+                        location: "Praça Mauá, 1 - Centro, Rio de Janeiro, RJ, CEP: 20081-240."
+                    },
+                    {
+                        img: "../images/museu-arte.jpg",
+                        title: "Museu de Arte do Rio (MAR)",
+                        description: "Dedicado à arte e cultura brasileira, o MAR apresenta exposições que integram arte, história e educação. O museu ocupa dois edifícios interligados: um palacete histórico e uma construção moderna, simbolizando a conexão entre o passado e o presente.",
+                        location: " Praça Mauá, 5 - Centro, Rio de Janeiro, RJ."
+                    },
+                    {
+                        img: "../images/teatro-municipal.jpg",
+                        title: "Theatro Municipal",
+                        description: " Inaugurado em 1909, é um dos teatros mais importantes do Brasil, reconhecido por sua arquitetura inspirada na Ópera de Paris. Localizado no centro da cidade, é palco de grandes espetáculos de música, dança e ópera, sendo um ícone cultural carioca.",
+                        location: "Praça Floriano, S/N - Centro, Rio de Janeiro, RJ, CEP: 20031-050."
+                    }
+                ],
+                "Vida Noturna": [
+                    {
+                        img: "../images/lapa.jpg",
+                        title: "Lapa:",
+                        description: "Reconhecida como o epicentro da vida noturna carioca, a Lapa é famosa por seus bares vibrantes, rodas de samba e casas de show emblemáticas. Destacam-se o Circo Voador, uma arena cultural que desde 1982 recebe apresentações de artistas renomados, e a Fundição Progresso, um centro cultural multifacetado que promove eventos musicais e artísticos diversos.",
+                        location: "Bairro da Lapa, Centro, Rio de Janeiro, RJ, Brasil."
+                    },
+                    {
+                        img: "../images/rio-scenarium.jpg",
+                        title: "Rio Scenarium",
+                        description: " Localizado no coração da Lapa, o Rio Scenarium é uma casa de samba icônica, conhecida por sua decoração vintage e atmosfera única. Distribuído em vários andares, o espaço combina elementos de antiquário com música ao vivo, oferecendo uma experiência autêntica da cultura carioca.",
+                        location: "Rua do Lavradio, 20, Centro, Rio de Janeiro, RJ, CEP: 20230-070."
+                    },
+                    {
+                        img: "../images/brewteco.jpg",
+                        title: "Brewteco",
+                        description: "Bar descontraído situado em Botafogo, famoso por sua variedade de cervejas artesanais e petiscos, atraindo um público jovem e descolado.",
+                        location: "Rua Nelson Mandela, 166, Botafogo, Rio de Janeiro, RJ, CEP: 22260-005."
+                    }
+                ]
+            };
+
+            selectedInterests.forEach(interest => {
+                // Adiciona o título do interesse
+                const titleDiv = document.createElement("div");
+                titleDiv.className = "roteiro-card";
+                titleDiv.innerHTML = `<h2>${interest}</h2>`;
+                selectedInterestsContainer.appendChild(titleDiv);
+
+                // Adiciona os cards correspondentes ao interesse
+                if (cardsData[interest]) {
+                    const cardDiv = document.createElement("div");
+                    cardDiv.className = "card";
+
+                    cardsData[interest].forEach(card => {
+                        const cardItem = document.createElement("div");
+                        cardItem.className = "card-item";
+                        cardItem.innerHTML = `
+                            <img src="${card.img}" alt="Descrição">
+                            <div class="card-content">
+                                <h2>${card.title}</h2>
+                                <p>${card.description}</p>
+                                <p class="location">${card.location}</p>
+                            </div>
+                        `;
+                        cardDiv.appendChild(cardItem);
+                    });
+
+                    selectedInterestsContainer.appendChild(cardDiv);
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

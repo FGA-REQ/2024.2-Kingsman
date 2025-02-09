@@ -29,7 +29,8 @@ body {
 
 .right {
     width: 50%;
-    background-color: #ffedd5;
+    background-image: url('../images/tela-fundo.jpeg');
+    background-size: cover; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +48,11 @@ body {
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 input {

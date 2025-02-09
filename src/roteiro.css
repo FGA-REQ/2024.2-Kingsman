@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/tela-fundo.jpeg');
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+header img{
+    width: 180px;
+}
+
+
+.section {
+    max-width: 600px;
+    margin: auto;
+    text-align:left;
+    margin-left: 70px;
+}
+
+.section h2{
+    color: #34336D;
+}
+
+.card {
+    /* margin: 69px; VER */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.card-item img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff8c42;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.card-content .location {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.grid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.interest-card {
+    width: 120px;
+    margin-left: 70px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+
+.interest-card.selected {
+    border: 2px solid #ff9800;
+    background-color: #ffebcd;
+}
+
+
+/* Estilo dos cards da página roteiro.html */
+.roteiro-card {
+    background-color: #FEA800;
+    padding: 10px;
+    margin: 20px 0px;
+    margin-right: 250px;
+    width: 350px;
+    border-radius: 8px;
+    font-size: 120px;
+    font-weight: bold;
+    color: #333;
+    align-self: flex-start;
+}
+
+
+/* Estilo dos títulos dentro dos cards */
+.roteiro-card h2 {
+    font-size: 22px;
+    color: #34336D;
+    text-align: center;
+}
+
+#selected-interests {
+    width: 90vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+}

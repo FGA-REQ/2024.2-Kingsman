@@ -32,8 +32,8 @@
                 <option>1 adulto</option>
                 <option>2 adultos</option>
                 <option>3 adultos</option>
-                <option>0 crianças</option>
-                <option>1 criança</option>
+                <option>2 adultos • 2 crianças</option>
+                <option>3 adultos • 3 crianças</option>
             </select>
         </div>
     </section>
@@ -42,18 +42,23 @@
         <h2>Quais são os seus interesses principais para a viagem?</h2>
         <div class="grid" id="interests-container"></div>
         <div class="center">
-            <button class="button">Gerar roteiros</button>
+            <button class="button-roteiro" id="generate-button">Gerar roteiros</button>
         </div>
     </section>
 
     <script>
+          // Salva a cidade selecionada no localStorage
+          const destinoSelect = document.getElementById("destino");
+        destinoSelect.addEventListener("change", function() {
+            const cidadeSelecionada = destinoSelect.value;
+            localStorage.setItem("cidadeSelecionada", cidadeSelecionada);
+        });
         document.addEventListener("DOMContentLoaded", function() {
             const interests = [
                 { name: "Gastronomia", image: "../images/gastronomia.jpg" },
                 { name: "Vida Noturna", image: "../images/vida-noturna.jpg" },
                 { name: "Cultura", image: "../images/cultura.jpg" },
                 { name: "Lazer", image: "../images/lazer.jpg" }
-
             ];
 
             const container = document.getElementById("interests-container");
@@ -61,14 +66,26 @@
             interests.forEach(interest => {
                 const div = document.createElement("div");
                 div.className = "interest-card";
+                div.dataset.name = interest.name; // Salvamos o nome no atributo data-name
                 div.innerHTML = `
                     <img src="${interest.image}" alt="${interest.name}" />
                     <p>${interest.name}</p>
                 `;
+
                 div.addEventListener("click", () => {
                     div.classList.toggle("selected");
                 });
+
                 container.appendChild(div);
+            });
+
+            document.getElementById("generate-button").addEventListener("click", () => {
+                const selectedInterests = Array.from(document.querySelectorAll(".interest-card.selected"))
+                    .map(div => div.dataset.name); // Pegamos o nome correto dos interesses
+
+                localStorage.setItem("selectedInterests", JSON.stringify(selectedInterests));
+
+                window.location.href = "roteiro.html";
             });
         });
     </script>

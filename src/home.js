@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const interests = [
         { name: "Gastronomia", image: "gastronomia.jpg" },
-        { name: "Esportes", image: "esportes.jpg" },
         { name: "Vida Noturna", image: "vida_noturna.jpg" },
         { name: "Cultura", image: "cultura.jpg" },
-        { name: "Lazer", image: "lazer.jpg" },
-        { name: "Aventura", image: "aventura.jpg" },
-        { name: "Compras", image: "compras.jpg" },
-        { name: "Natureza", image: "natureza.jpg" }
+        { name: "Lazer", image: "lazer.jpg" }
+
     ];
 
     const container = document.getElementById("interests-container");
