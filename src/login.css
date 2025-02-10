@@ -49,6 +49,11 @@ h2 {
     margin-bottom: 20px;
 }
 
+ a{
+    text-decoration: none;
+    color: white;
+}
+
 input {
     width: 100%;
     padding: 10px;
