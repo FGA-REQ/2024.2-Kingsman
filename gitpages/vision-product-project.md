@@ -39,9 +39,9 @@ O objetivo deste projeto é desenvolver uma plataforma especializada na criaçã
 
 ### 1.4 Tecnologias a Serem Utilizadas
 
-**Frontend**: JavaScript com ReactJS
-**Backend**: JavaScript com NodeJS
-**Banco de dados**: MongoDB
+**Frontend**: ReactJS
+**Backend**: Java com Spring
+**Banco de dados**: PostgreSQL
 
 ## 2. Visão Geral do Projeto
 
