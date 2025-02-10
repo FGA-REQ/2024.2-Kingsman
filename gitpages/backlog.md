@@ -156,7 +156,7 @@ Como usuário, quero acessar roteiros antigos para lembrar de detalhes de viagen
 - O sistema deve garantir que o histórico esteja atualizado e seja consultável sem falhas.
 
 
- ## Histórico de versão
+## Histórico de versão
 
 |Data|Versão|Descrição|Autores|
 |--|--|--|--|

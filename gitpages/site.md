@@ -17,11 +17,7 @@ O projeto **Kingsman** tem como principal objetivo oferecer aos usuários uma ex
 
 Aqui está o vídeo gravado sobre o desenvolvimento e os detalhes do projeto, incluindo nossa interação com o cliente e os desafios que enfrentamos ao longo do processo.
 
-<video width="100%" controls>
-  <source src="videos/projeto_completo.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/j6N4pOgUiUA" frameborder="0" allowfullscreen></iframe>
 ## Protótipo do Figma
 
 Aqui está o link para o protótipo do projeto desenvolvido no Figma, onde você pode visualizar o design da interface e interações do sistema:
@@ -32,3 +28,4 @@ Aqui está o link para o protótipo do projeto desenvolvido no Figma, onde você
 |--|--|--|--|
 |09/02/2025|1.0|Adicionando site|[Harleny Angéllica](https://github.com/Angelicahaas)|
 |09/02/2025|1.0|Adicionando protótipo do Figma |[Harleny Angéllica](https://github.com/Angelicahaas)|
+|09/02/2025|1.0|Adicionando vídeo do projeto Completo |[Harleny Angéllica](https://github.com/Angelicahaas)|
