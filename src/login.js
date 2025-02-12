@@ -2,23 +2,25 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.getElementById("loginForm");
 
   loginForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
+    e.preventDefault();
 
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
 
-      try {
-          const response = await fetch("http://localhost:5000/login", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ email, password }),
-          });
+    try {
+      const response = await fetch(`http://localhost:8080/usuarios/${email}`, {
+        method: "GET",
+        headers: { "Content-Type": "application/json" },
+      });
 
-          const data = await response.json();
-          alert(data.message);
-      } catch (error) {
-          alert("Erro ao conectar ao servidor");
-          console.error("Erro:", error);
+      const data = await response.json();
+      console.log(data);
+      if (data.message == undefined) {
+        alert("Login feito com sucesso");
       }
+    } catch (error) {
+      alert("Erro ao conectar ao servidor");
+      console.error("Erro:", error);
+    }
   });
 });
