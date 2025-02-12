@@ -8,11 +8,11 @@ services:
     environment:
       POSTGRES_DB: kingsmandb
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123456
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5433:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/16/main
 
 volumes:
   postgres_data:
