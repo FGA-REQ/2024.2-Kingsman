@@ -16,11 +16,8 @@ import java.util.Optional;
 @RequestMapping("/destinos")
 public class DestinoController {
 
-	private final DestinoRepository destinoRepository;
-
-	public DestinoController(DestinoRepository destinoRepository) {
-		this.destinoRepository = destinoRepository;
-	}
+	@Autowired
+	private DestinoRepository destinoRepository;
 
 	@Operation(summary = "Cria um novo destino")
 	@PostMapping

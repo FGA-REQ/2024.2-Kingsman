@@ -3,6 +3,7 @@ package com.unb.fast_travel.controllers;
 import com.unb.fast_travel.models.Usuario;
 import com.unb.fast_travel.services.UserService;
 import io.swagger.v3.oas.annotations.Operation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,11 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/usuarios")
 public class UserController {
-	private final UserService userService;
-
-	public UserController(UserService userService) {
-		this.userService = userService;
-	}
+	@Autowired
+	private UserService userService;
 
 	@Operation(summary = "Criar usuario novo")
 	@PostMapping

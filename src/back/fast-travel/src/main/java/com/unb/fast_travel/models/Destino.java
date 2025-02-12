@@ -32,7 +32,4 @@ public class Destino {
 
 	@Column(nullable = false)
 	private String pais;
-
-	@OneToMany(mappedBy = "destino", cascade = CascadeType.ALL)
-	private List<PontoTuristico> pontoTuristicos;
 }

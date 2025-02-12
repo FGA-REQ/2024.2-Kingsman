@@ -6,6 +6,7 @@ import com.unb.fast_travel.repositories.DestinoRepository;
 import com.unb.fast_travel.repositories.PontoRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,14 +17,11 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/spots")
 public class PontoController {
-	private final PontoRepository pontoRepository;
+	@Autowired
+	private PontoRepository pontoRepository;
 
-	private final DestinoRepository destinoRepository;
-
-	public PontoController(PontoRepository pontoRepository, DestinoRepository destinoRepository) {
-		this.pontoRepository = pontoRepository;
-		this.destinoRepository = destinoRepository;
-	}
+	@Autowired
+	private DestinoRepository destinoRepository;
 
 	@Operation(summary = "Cria um novo ponto turístico dentro de um destino e categoria")
 	@PostMapping("/{destinoId}")
